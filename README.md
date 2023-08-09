@@ -102,3 +102,7 @@ if __name__ == '__main__':
  ws = np.array([0, 0, 0])
  wf = np.array([0, 0, 1])
  T = 1
+
+ C = smooth_attitude_interpolation(Cs, Cf, ws, wt, T)
+
+ print(c)
