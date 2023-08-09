@@ -98,4 +98,4 @@ maxfev=100000,
 if __name__ == '__main__':
  # Test the code.
  Cs = np.array([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
- Cf = 
+ Cf = np.array([[0,
