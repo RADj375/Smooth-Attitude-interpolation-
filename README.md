@@ -64,7 +64,7 @@ maxfev=100000,
  # Interpolate the attitude matrices.
  C = np.exp(θ_poly @ np.linalg.inv(np.diag(t_poly)))
 
- # Adjust the attitude matrices to account for time travel.
+ # Adjust the attitude matrices to account for time.
  C = C * np.exp(-1j * 2 * np.pi * T)
 
  # Create the AR scene.
